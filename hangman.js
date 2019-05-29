@@ -1,10 +1,10 @@
 
 //find key pressed
 //display key pressed
-document.addEventListener('keydown', logKey);
+document.addEventListener('keydown', findLetter);
 
-function logKey(event) {
-  letter.textContent += ` ${event.code}`;
+function findLetter(event) {
+  letter.textContent += ` ${event.key}`;
 }
 
 //find key pressed
