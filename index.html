@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Hangman 2.0</title>
+    <link rel="stylesheet" href="/assets/main.css" />
   </head>
   <body>
-    <header>Hangman !</header>
-    <div class="instructions">
-      <h1>Guess the movie!</h1>
-      <p>All movies are from the IMDb top 200!</p>
-    </div>
+    <div class="container">
+      <div class="instructions">
+        <span class="item">Hangman !</span>
+        <h1 class="item">Guess the movie!</h1>
+        <p class="item">All movies are from the IMDb top 200!</p>
+      </div>
 
-    <div className="input-container">
-        <div id="letter" type="number"> letter:</div>
+      <div className="input-container">
+        <div id="letter" type="number">letter:</div>
+      </div>
     </div>
   </body>
   <script src="hangman.js"></script>
